@@ -1,0 +1,59 @@
+body{
+    display: block;
+}
+
+#accueil {
+    background: url('../img/fond1.jpg') center no-repeat;
+    height: 500px;
+    width: 100%;
+    display: inline-block;
+    -webkit-background-size: cover;
+      background-size: cover;
+}
+
+#accueil img {
+    margin-top: 1vh;
+    margin-left: 15vw;
+    height: 20px;
+    width: auto;
+}
+
+#accueil nav ul {
+    float: right;
+    list-style: none;
+    margin-top: 0;
+}
+
+#accueil nav ul li {
+    display: inline-block;
+    margin-top: none;
+    padding: 0 1vw;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 3.333;
+    text-align: right;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#accueil nav ul li:first-child {
+    background-color: #74c7d5;
+}
+
+#accueil nav ul li:last-child {
+    margin-right: 15vw;
+}
+
+#accueil nav ul li:hover {
+    background-color: #74c7d5;
+}
+
+#accueil nav ul li a {
+    text-decoration: none;
+}
+
+#accueil nav ul li a:visited {
+    text-decoration: none;
+    color: #fff;
+}
