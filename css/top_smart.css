@@ -1,37 +1,52 @@
-body{
+body {
     display: block;
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bloc {
+    height: 800px;
+    width: 100%;
+    display: inline-block;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 #accueil {
     background: url('../img/fond1.jpg') center no-repeat;
-    height: 500px;
-    width: 100%;
-    display: inline-block;
-    -webkit-background-size: cover;
-      background-size: cover;
 }
 
-#accueil img {
-    margin-top: 1vh;
-    margin-left: 15vw;
-    height: 20px;
+#services {
+    background: url('../img/fond2.jpg') center no-repeat;
+}
+
+#about {
+    background: url('../img/fond3.jpg') center no-repeat;
+}
+
+img {
+    margin-top: 2vh;
+    margin-left: 10vw;
+    height: 50px;
     width: auto;
 }
 
-#accueil nav ul {
+nav ul {
     float: right;
     list-style: none;
     margin-top: 0;
 }
 
-#accueil nav ul li {
+nav ul li {
+    font-size: 2.7em;
     display: inline-block;
     margin-top: none;
-    padding: 0 1vw;
-    font-size: 18px;
+    padding: 2.5vh 1vw 1vh;
     font-family: "Lato", sans-serif;
     color: rgb(255, 255, 255);
-    line-height: 3.333;
     text-align: right;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -41,19 +56,13 @@ body{
     background-color: #74c7d5;
 }
 
-#accueil nav ul li:last-child {
-    margin-right: 15vw;
+nav ul li:last-child {
+    margin-right: 10vw;
 }
 
-#accueil nav ul li:hover {
-    background-color: #74c7d5;
-}
-
-#accueil nav ul li a {
-    text-decoration: none;
-}
-
-#accueil nav ul li a:visited {
+nav ul li a:visited,
+nav ul li a:active,
+nav ul li:hover {
     text-decoration: none;
     color: #fff;
 }
