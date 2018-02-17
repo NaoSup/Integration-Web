@@ -46,7 +46,7 @@
         <nav>
             <img src="./img/acrostia.png" alt="logo" id="services">
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li class="hidden"><a href="#home">Home</a></li>
                 <li class="activelink"><a href="#services">Services</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="">Work</a></li>
@@ -91,16 +91,16 @@
     </div>
     <div class="bloc" id="bloc3">
         <nav>
-            <img src="./img/acrostia.png" alt="logo" id="about">
-            <ul>
-                <li><a href="#home">Home</a></li>
+            <img src="./img/acrostia.png" alt="logo">
+            <ul id="about">
+                <li class="hidden"><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
                 <li class="activelink"><a href="#about">About</a></li>
                 <li><a href="">Work</a></li>
                 <li><a href="">Contacts</a></li>
             </ul>
         </nav>
-        <div class="text">
+        <div class="text" >
             <div class="title">
                 Who are we & what do we do
             </div>
@@ -110,7 +110,8 @@
         </div>
         <div class="miniblocs">
             <div class="minibloc">
-                <img src="./img/user.png" alt="">
+               <div class="user"></div>
+                <!--<img src="./img/user.png" alt="">!-->
                 <div class="title">Anton Petrov</div>
                 <p>General Manager</p>
                 <div class="reseaux">
@@ -123,7 +124,7 @@
 
             </div>
             <div class="minibloc">
-                <img src="./img/user.png" alt="">
+                <div class="user"></div>
                 <div class="title">Kirl Donchev</div>
                 <p>Design Master</p>
                 <div class="reseaux">
@@ -134,7 +135,7 @@
                 </div>
             </div>
             <div class="minibloc">
-                <img src="./img/user.png" alt="">
+                <div class="user"></div>
                 <div class="title">Ilian Bonev</div>
                 <p>Developer Ninja</p>
                 <div class="reseaux">
@@ -145,7 +146,7 @@
                 </div>
             </div>
             <div class="minibloc">
-                <img src="./img/user.png" alt="">
+                <div class="user"></div>
                 <div class="title">Doni Stamov</div>
                 <p>SEO guru</p>
                 <div class="reseaux">
@@ -156,6 +157,7 @@
                 </div>
             </div>
         </div>
+        <!--<div id="vide"></div>!-->
     </div>
 </body>
 
