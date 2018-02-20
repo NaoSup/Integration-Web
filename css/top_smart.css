@@ -20,14 +20,15 @@ a {
     margin-top: 0;
 }
 
-/*nav .hidden {
-    display: none;
-}*/
+nav .hidden {
+    /*display: none;*/
+}
 
 #bloc1 {
     background: url('../img/fond1.jpg') left top no-repeat;
     /*display: none;*/
     background-size: cover;
+    
 }
 
 #bloc2 {
@@ -81,15 +82,11 @@ nav ul li:hover {
 }
 
 #bloc1 #carrousel {
-    /*margin: 30vh 0 0 5vw;*/
-    margin-top: 20vh;
+    margin-top: 13vh;
     text-align: center;
-    display: inline-block:
 }
 
 #bloc1 #arrowleft {
-    /*float:left;
-    margin-: 5vh;*/
     display: inline-block;
 }
 
@@ -102,32 +99,30 @@ nav ul li:hover {
     text-align: center;
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.302);
-    padding: 5vh 0 5vh 2vw;
+    padding: 3vh 1vw;
     width: 65vw;
-    margin: 0 5vw;
+    margin: 5vh 5vw 0;
     display: inline-block;
 }
 
 #bloc1 #ideas {
-    float: left;
-    font-size: 4em;
+    font-size: 4.5vw;
     color: rgb(116, 199, 213);
     line-height: 0.967;
     text-align: right;
+    display: inline-block;
 }
 
 #bloc1 #first {
-    float: left;
     display: inline-block;
     text-align: left;
-    font-size: 8.5em;
+    font-size: 10vw;
     color: rgb(116, 199, 213);
     margin-top: -3vh;
+    font-weight: bold;
 }
 
 #bloc1 #arrowright {
-    /*float: right;
-    margin-top:-13vh;*/
     display: inline-block;
 }
 
@@ -137,7 +132,7 @@ nav ul li:hover {
 }
 
 #bloc1 #links {
-    margin-top: 25vh;
+    margin: 20vh 0 5vh;
 }
 
 #bloc1 #links img {
@@ -158,7 +153,7 @@ nav ul li:hover {
 }
 
 .title {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .title,
@@ -168,7 +163,7 @@ nav ul li:hover {
 }
 
 #subtitle {
-    font-size: 2em;
+    font-size: 1.1em;
 }
 
 #subtitle span {
@@ -176,7 +171,7 @@ nav ul li:hover {
 }
 
 .description {
-    font-size: 1.4em;
+    font-size: 1em;
     color: rgb(255, 204, 207);
     line-height: 1.714;
 }
@@ -185,24 +180,27 @@ nav ul li:hover {
     text-align: center;
     margin-bottom: 5vh;
 }
-
+.rang {
+    display: block;
+}
 .minibloc {
     display: inline-block;
-    width: 15vw;
-    margin: 7vh 2vw 0;
+    width: 30vw;
+    margin: 7vh 0.5vw 0;
     text-align: center;
-    padding: 2vh 2vw;
+    padding: 3vh 1vw;
     border-radius: 5px;
 }
 
 .minibloc img {
-    height: 10vh;
+    height: 8vh;
     margin-left: 0;
 }
 
 .minibloc .title {
-    font-size: 1.4em;
+    font-size: 3.5vw;
     margin: 2vh 0;
+    white-space: nowrap;
 }
 
 #bloc2 .minibloc {
@@ -218,6 +216,18 @@ nav ul li:hover {
     color: #fff;
 }
 
+#bloc3 #meet_team {
+    margin-top: 4vh;
+    background: url(../img/meet_team_bg.png) top center no-repeat;
+    background: cover;
+    height: 3vh;
+    text-align: center;
+    padding-top: 0.3vh;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 #bloc3 .minibloc {
     background-color: rgba(86, 71, 84, 0.502);
 }
@@ -227,8 +237,8 @@ nav ul li:hover {
 }
 
 #bloc3 .minibloc .user {
-    width: 11vw;
-    height: 11vh;
+    width: 15vw;
+    height: 10vh;
     background: url(../img/user.png) center no-repeat;
     background-size: contain;
     display: inline-block;
@@ -250,6 +260,9 @@ nav ul li:hover {
 
 #bloc3 .minibloc p {
     color: rgb(161, 202, 108);
+    font-size: 2vw;
+     white-space: nowrap;
+
 }
 
 #bloc3 .minibloc:hover p {
@@ -257,10 +270,10 @@ nav ul li:hover {
 }
 
 #bloc3 .reseaux div {
-    width: 3vw;
-    height: 3vh;
+    width: 4vw;
+    height: 4vh;
     display: inline-block;
-    margin: 1vh 0.5vw 0 0;
+    margin: 1vh 0.7vw 0 0;
 }
 
 #bloc3 .minibloc .reseaux .facebook {
