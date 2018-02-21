@@ -10,7 +10,7 @@ body{
 
 #work {
     background: url('../img/fond4.jpg') center no-repeat;
-    height: 800px;
+    height: 2000px;
     width: 100%;
     display: inline-block;
     -webkit-background-size: cover;
@@ -19,7 +19,7 @@ body{
 
 #work img {
     margin-top: 1vh;
-    margin-left: 10vw;
+    margin-left: 2vw;
     height: 20px;
     width: auto;
 }
@@ -75,7 +75,7 @@ body{
 }
 
 #trait2 {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     margin-left: 50px;
     margin-right: 10px;
     background: transparent;
@@ -103,7 +103,7 @@ body{
 
 #portfolio ul {
     display: inline-block;
-    margin-left: 270px;
+    margin-left: 150px;
 }
 
 #portfolio ul a{
@@ -124,62 +124,85 @@ body{
 
             /* Cadre */
 
-#cadre {
-    text-align: center;
-}
-
 #image {
     display: block;
 }
 
-#img {
+.img {
     display: inline-block;
-    width: 27vw;
-    margin: 7vh 0.5vw 27px;
+    width: 32vw;
+    height: 50vh;
+    margin: 2vh 0.5vw 27px;
     text-align: center;
     border-radius: 5px;
-    margin-top: 4px;
+    margin-left: 45px;
 }
 
-#img img {
-    width: 45%;
-    height: 45%;
+#img1{
+    background: url(../img/Layer_12.png) center no-repeat;
+    background-size: contain;
 }
 
-#img  p {
-    font-size: 8px;
+.img:hover #img1 {
+    background:url(../img/Rectangle_2.png);
+}
+
+#img2{
+    background: url(../img/Layer_15.png) center no-repeat;
+    background-size: contain;
+}
+
+#img3{
+    background: url(../img/Layer_17.png) center no-repeat;
+    background-size: contain;
+}
+
+#img4{
+    background: url(../img/Layer_18.png) center no-repeat;
+    background-size: contain;
+}
+
+#img5{
+    background: url(../img/Layer_19.png) center no-repeat;
+    background-size: contain;
+}
+
+#img6{
+    background: url(../img/Layer_20.png) center no-repeat;
+    background-size: contain;
+}
+
+#img7{
+    background: url(../img/Layer_21.png) center no-repeat;
+    background-size: contain;
+}
+
+#img8{
+    background: url(../img/Layer_22.png) center no-repeat;
+    background-size: contain;
+}
+
+.img  p {
+    font-size: 15px;
     font-family: "Lato";
     color: rgb(114, 114, 114);
-    margin-left: 75px;
-    margin-top: -16px;
+    margin-left: 20px;
+    margin-top: 240px;
 }
 
-#img #fleche{
+.img .fleche{
     text-align: center;
     width: 15%;
     height: 15%;
-    margin-left: 60px;
-    margin-top: -36px;
+    margin-left: 70px;
+    margin-top: -65px;
 }
 
-
-#plus img {
-    width: 30px;
-    height: 30px;
-    margin-left: 25px;
-    margin-top: -70px;
-    font-size: 10px;
-    font-family: "Lato";
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    text-align: center;
-    position: absolute;
-}
             /* Navbar Contact */
 
 #contact {
     background: url('../img/fond5.jpg') center no-repeat;
-    height: 700px;
+    height: auto;
     width: 100%;
     display: inline-block;
     -webkit-background-size: cover;
@@ -188,7 +211,7 @@ body{
 
 #contact img {
     margin-top: 1vh;
-    margin-left: 10vw;
+    margin-left: 5vw;
     height: 20px;
     width: auto;
 }
@@ -263,12 +286,13 @@ body{
             /* Lieux */
 
 #lieux {
+    text-align: center;
     margin-top: 170px;
 }
 
 #address {
     float: left;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 #address h3 {
@@ -314,7 +338,7 @@ body{
 }
 
 #googlemaps{
-    margin-left: 200px;
+    margin-left: 250px;
     padding-top: 20px;
 }
 
@@ -323,28 +347,30 @@ iframe {
     width: 200px
 }
 
+form{
+    margin-top: 8px;
+}
+
 #question {
-    float: right;
+    margin-left: 100px;
 }
 
 #question h3{
-   margin-left: 440px;
-   margin-top: -218px;
-   font-size: 30px;
-   font-weight: 100;
-   font-family: "Lato";
-   color: rgb(255, 255, 255);
+    margin-left: px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
 }
 
 #name {
-    margin-left: 410px;
-    width: 18%;
+    width: 40%;
     border-radius: 4px;
     background-color: rgb(104, 160, 151);
 }
 
 #blanc {
-    width: 18%;
+    width: 40%;
     background-color: transparent;
     border: 25%;
     border-radius: 4px;
@@ -352,16 +378,16 @@ iframe {
 }
 
 #message {
-    width: 37%;
-    margin-left: 409px;
+    margin-top: 15%;
+    width: 82%;
     margin-top:26px;
     border-radius: 4px;
     background-color: rgb(104, 160, 151);
 }
 
 #submit {
-    margin-left: 470px;
-    width: 15%;
+    margin-left: 150px;
+    width: 20%;
     border-radius: 4px;
     background-color: rgb(223, 92, 100);
     box-shadow: inset 0px -4px 0px 0px rgba(178, 74, 80, 0.5);
@@ -369,7 +395,7 @@ iframe {
 
             /* Footer */
 footer { 
-    height: 100px;
+    height: 90px;
     width: 100%;
     background: url('../img/fond6.jpg');
 }
@@ -378,7 +404,7 @@ footer {
     text-align: center;
     width:90%;
     padding: 25px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 #reseaux a {

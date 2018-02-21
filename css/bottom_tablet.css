@@ -1,0 +1,97 @@
+            /* Page Work */
+#work {
+    height: 900px;
+}
+
+#work img {
+    margin-top: 2vh;
+    margin-left: 10vw;
+}
+            /* Portfolio */
+
+#portfolio ul {
+    display: inline-block;
+    margin-left: 52%;
+}
+
+            /* Cadre */
+
+.img {
+    width: 20vw;
+    height: 35vh;
+    margin: 3vh -4.5vw 27px;
+    margin-bottom: -25%;
+    margin-left: 65px;
+}
+
+.img  p {
+    font-size: 15px;
+    font-family: "Lato";
+    color: rgb(114, 114, 114);
+    margin-left: 20px;
+    margin-top: 190px;
+}
+
+ .img .fleche {
+    margin-top: -73px;
+    margin-left: -10px;
+}
+
+            /* Page contact */
+
+#contact {
+    height: 650px;
+}
+
+#contact img {
+    margin-top: 2vh;
+    margin-left: 10vw;
+}
+
+            /* Lieux */
+
+#lieux {
+    margin-left: 100px;
+}
+
+#googlemaps{
+    margin-left: -25px;
+    margin-top: 25px;
+}
+
+iframe {
+    margin-top: -12px;
+}
+
+form{
+    float: right;
+}
+
+#question {
+    margin-left: 400px;
+    margin-top: -240px;
+    margin-right: -107px;
+}
+
+#question h3{
+    margin-right: 115px;
+}
+
+#name {
+    width: 25%;
+    margin-left: 25px;
+}
+
+#blanc {
+    width: 25%;
+}
+
+#message {
+    width: 51%;
+}
+
+#submit {
+    margin-top: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+}

@@ -1,6 +1,6 @@
             /* Page Work */
 #work {
-    height: 1000px;
+    height: 1200px;
 }
 
             /* Portfolio */
@@ -15,43 +15,35 @@
 }
 
             /* Cadre */
-
 #image {
-    margin-right: 250px;
+    margin-left: 95px; 
 }
 
-#img {
+.img {
     width: 15vw;
     margin: 4vh 1.5vw ;
+    margin-left: 50px; 
 }
 
-#img img {
-    width: 100%;
+
+.img  p {
+    font-size: 15px;
+    font-family: "Lato";
+    color: rgb(114, 114, 114);
+    margin-left: 20px;
+    margin-top: 205px;
 }
 
-#img  p {
-    font-size: 10px;
-    margin-left: 130px;
-    margin-top: -27px;
-    width: 100%;
+.img .fleche{
+    margin-left: -55px;
+    margin-top: -77px;
 }
 
-#img #fleche{
-    margin-left: 100px;
-    margin-top: -67px;
-}
-
-#plus img {
-    width: 60px;
-    height: 60px;
-    margin-left: 125px;
-    margin-top: -150px;
-}
 
             /* Page contact */
 
 #contact {
-    height: 965px;
+    height: 865px;
 }
 
             /* Text Work_Contact */
@@ -65,6 +57,8 @@
 #titre p{
     margin-bottom: 15px;    
     margin-top: -20px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
             /* Lieux */
@@ -83,7 +77,7 @@
 }
 
 #googlemaps{
-    margin-left: 230px;
+    margin-right: 270px;
     margin-top: 25px;
 }
 
@@ -93,12 +87,11 @@ iframe {
     margin-top: -15px;
 }
 
-form{
-    float: right;
-    margin-left: 150px;
-    margin-top: -30px;
+#question{
+    margin-left: 600px; 
+    margin-right: 1px;
+    margin-top: -265px;
 }
-
 #name {
     width: 260px;
     height: 40px;
@@ -110,12 +103,12 @@ form{
 }
 
 #message {
-    width: 48%;
+    width: 81%;
 }
 
 #submit {
     width: 20%;
     height: 40px;
     margin-top: 20px;
-    margin-left: 560px;
+    margin-left: 60px;
 }
