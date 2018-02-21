@@ -1,0 +1,121 @@
+            /* Page Work */
+#work {
+    height: 1000px;
+}
+
+            /* Portfolio */
+
+#portfolio p{
+    margin-top: 13px; 
+}
+
+#portfolio ul {
+    display: inline-block;
+    margin-left: 62%;
+}
+
+            /* Cadre */
+
+#image {
+    margin-right: 250px;
+}
+
+#img {
+    width: 15vw;
+    margin: 4vh 1.5vw ;
+}
+
+#img img {
+    width: 100%;
+}
+
+#img  p {
+    font-size: 10px;
+    margin-left: 130px;
+    margin-top: -27px;
+    width: 100%;
+}
+
+#img #fleche{
+    margin-left: 100px;
+    margin-top: -67px;
+}
+
+#plus img {
+    width: 60px;
+    height: 60px;
+    margin-left: 125px;
+    margin-top: -150px;
+}
+
+            /* Page contact */
+
+#contact {
+    height: 965px;
+}
+
+            /* Text Work_Contact */
+
+#titre h3{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 120px; 
+}
+
+#titre p{
+    margin-bottom: 15px;    
+    margin-top: -20px;
+}
+
+            /* Lieux */
+
+#lieux {
+    margin-left: 250px;
+}
+
+#address ul p {
+    margin-top: 150px;
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(208, 239, 234);
+    text-align: left;
+    position: absolute;
+}
+
+#googlemaps{
+    margin-left: 230px;
+    margin-top: 25px;
+}
+
+iframe {
+    height: 220px;
+    width: 250px;
+    margin-top: -15px;
+}
+
+form{
+    float: right;
+    margin-left: 150px;
+    margin-top: -30px;
+}
+
+#name {
+    width: 260px;
+    height: 40px;
+}
+
+#blanc {
+    width: 260px;
+    height: 40px;
+}
+
+#message {
+    width: 48%;
+}
+
+#submit {
+    width: 20%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 560px;
+}
