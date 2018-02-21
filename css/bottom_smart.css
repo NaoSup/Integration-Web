@@ -1,8 +1,13 @@
 body{
+    height: 100%;
     display: block;
+    font-size: 62.5%;
+    color: #fff;
+    font-family: "Lato";
 }
 
-            /*navbar work */
+            /* Navbar Work */
+
 #work {
     background: url('../img/fond4.jpg') center no-repeat;
     height: 800px;
@@ -59,7 +64,8 @@ body{
     color: #fff;
 }
 
-            /*Ligne*/
+            /* Ligne */
+
 #trait1{
     margin-top: 150px;
     margin-left: 50px;
@@ -75,9 +81,11 @@ body{
     background: transparent;
     border-width: 0 0 1px;
 }
-            /*Portfolio*/
+
+            /* Portfolio */
+
 #portfolio {
-    display: inline-block;
+    display: block;
 }
 
 #portfolio p{
@@ -90,17 +98,17 @@ body{
     line-height: 1.2;
     text-align: left;
     position: absolute;
+    margin-top: 10px;
 }
 
 #portfolio ul {
     display: inline-block;
-    margin-left: 260px;
+    margin-left: 270px;
 }
 
 #portfolio ul a{
     margin-left: 15px;
     padding: 0 1vw;
-    float: right;
     text-decoration: none;
     font-size: 16px;
     font-family: "Lato";
@@ -109,11 +117,69 @@ body{
     line-height: 1.5;
 }
 
-            /*navbar contact*/
+#portfolio ul a:nth-child(2) {
+    background-color: #f5c149;
+    height: 25%;
+}
+
+            /* Cadre */
+
+#cadre {
+    text-align: center;
+}
+
+#image {
+    display: block;
+}
+
+#img {
+    display: inline-block;
+    width: 27vw;
+    margin: 7vh 0.5vw 27px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+#img img {
+    width: 45%;
+    height: 45%;
+}
+
+#img  p {
+    font-size: 8px;
+    font-family: "Lato";
+    color: rgb(114, 114, 114);
+    margin-left: 75px;
+    margin-top: -16px;
+}
+
+#img #fleche{
+    text-align: center;
+    width: 15%;
+    height: 15%;
+    margin-left: 60px;
+    margin-top: -36px;
+}
+
+
+#plus img {
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: -70px;
+    font-size: 10px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+}
+            /* Navbar Contact */
 
 #contact {
     background: url('../img/fond5.jpg') center no-repeat;
-    height: 800px;
+    height: 700px;
     width: 100%;
     display: inline-block;
     -webkit-background-size: cover;
@@ -167,25 +233,22 @@ body{
     color: #fff;
 }
 
-
-
-
-            /*text work_contact */
+            /* Text Work_Contact */
 
 #titre {
     text-align: center;
-    margin-left: 10vh;
-    padding-top: 10vh;
+    margin-top: 8vh;
+    padding: 0 2vw;
 }
 
 #titre h3 {
-    font-size: 30px;
+    font-size: 2em;
+    text-align: center;
     font-weight: 100;
     font-family: "Lato";
     color: rgb(255, 255, 255);
-    text-transform: uppercase;
+    margin-top: 80px;
 }
-
 
 #titre p {
     font-size: 14px;
@@ -195,11 +258,7 @@ body{
     text-align: center;
     margin-right: 25px;
     position: absolute;
-    width: 1053px;
-    height: 36px;
 }
-
-
 
             /* Lieux */
 
@@ -219,6 +278,7 @@ body{
     color: rgb(255, 255, 255);
     text-align: left;
     position: absolute;
+    font-weight: 100;
 }
 
 #address a {
@@ -253,10 +313,8 @@ body{
     position: absolute;
 }
 
-
-
 #googlemaps{
-    margin-left: 187px;
+    margin-left: 200px;
     padding-top: 20px;
 }
 
@@ -273,30 +331,54 @@ iframe {
    margin-left: 440px;
    margin-top: -218px;
    font-size: 30px;
+   font-weight: 100;
    font-family: "Lato";
    color: rgb(255, 255, 255);
 }
 
 #name {
     margin-left: 410px;
+    width: 18%;
+    border-radius: 4px;
+    background-color: rgb(104, 160, 151);
+}
+
+#blanc {
+    width: 18%;
+    background-color: transparent;
+    border: 25%;
+    border-radius: 4px;
+    background-color: rgb(246, 246, 246);
 }
 
 #message {
-    margin-left: 440px;
+    width: 37%;
+    margin-left: 409px;
     margin-top:26px;
+    border-radius: 4px;
+    background-color: rgb(104, 160, 151);
 }
-            /* footer */
+
+#submit {
+    margin-left: 470px;
+    width: 15%;
+    border-radius: 4px;
+    background-color: rgb(223, 92, 100);
+    box-shadow: inset 0px -4px 0px 0px rgba(178, 74, 80, 0.5);
+}
+
+            /* Footer */
 footer { 
     height: 100px;
     width: 100%;
-    background: url('../img/fond6.jpg');   
+    background: url('../img/fond6.jpg');
 }
 
 #reseaux {
     text-align: center;
-    width:100%;
+    width:90%;
     padding: 25px;
-    margin-left: 25px;
+    margin-left: 50px;
 }
 
 #reseaux a {
