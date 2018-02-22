@@ -1,0 +1,201 @@
+img {
+    margin-top: 4.5vh;
+    margin-left: 20vw;
+}
+
+nav ul li {
+    padding: 4.5vh 1vw 2vh;
+}
+
+nav ul li:last-child {
+    margin-right: 20vw;
+}
+
+#bloc1 {
+    background-size: auto;
+}
+
+#bloc1 #carrousel {
+    margin-top: 20vh;
+}
+
+#bloc1 #slogan {
+    width: 840px;
+}
+
+#bloc1 #ideas {
+    font-size: 6em;
+}
+
+#bloc1 #first {
+    font-size: 14em;
+    margin-bottom: 2vh;
+}
+
+#bloc1 #arrowleft {
+    margin-right: 10vw;
+}
+
+#bloc1 #arrowright {
+    margin-left: 10vw;
+}
+
+#bloc1 #links {
+    margin-top: 10vh;
+    margin-bottom: 9vh;
+}
+
+#bloc1 #links img {
+    height: 2vh;
+    margin-left: 2vw;
+    margin-bottom: 3vh;
+}
+
+.text {
+    margin: 0 15vw;
+}
+
+.text .title {
+    font-size: 5em;
+    margin-top: 12vh;
+    margin-bottom: 4vh;
+}
+
+#subtitle {
+    font-size: 1.8em;
+}
+#bloc2 .description, #bloc3 .description {
+    font-size: 1.3em;
+}
+.miniblocs {
+    margin-bottom: 12.8vh;
+}
+
+.minibloc {
+    min-height: 400px;
+}
+
+.minibloc img {
+    height: 145px;
+    width: auto;
+}
+
+.minibloc .title {
+    margin-bottom: 5vh;
+}
+
+.minibloc p, #bloc3 .minibloc p {
+    font-size: 1.4em;
+}
+
+#bloc3 #meet_team p{
+    margin-top: -2vh;
+}
+
+#bloc3 .minibloc
+
+#bloc3 .minibloc .user {
+    height: 20vh;
+    width: 20vw;
+    margin-top: 4vh;
+    margin-left: 0;
+    background-size: cover;
+}
+#bloc3 .minibloc .title {
+    margin-bottom: 0;
+}
+#bloc3 .minibloc p {
+    margin-bottom: 5vh;
+}
+#bloc3 .reseaux {
+    padding-top: 7vh;
+}
+#bloc3 .reseaux div {
+    height: 3.5vh;
+    width: 3.5vw;
+    margin-right: 0;
+}
+
+#portfolio ul {
+    margin-left: 55vw;
+}
+#image {
+    margin: 0 17vw 10vh;
+}
+.img {
+    width: 12vw;
+    height: 12vh;
+    margin: 3vh 0.5vw;
+}
+
+#lieux, #localisation, #form {
+    text-align: left;
+    margin: 0;
+}
+
+#lieux {
+    display: block;
+text-align: center;}
+
+#localisation, #form {
+    display: inline-block;
+}
+
+#localisation {
+    right: 0;
+}
+#address h3 {
+    margin: 0;
+}
+#address #infos #fax {
+    padding-right: 6vw;
+}
+
+#address #infos {
+    margin-top: 5vh;
+}
+#googlemaps{
+    margin-top: 25px;
+    margin-left: 5vw;
+}
+
+iframe {
+    height: 220px;
+    width: 250px;
+}
+#form {
+    margin-left: 5vw;
+    padding-top: 2vh;
+}
+
+#form .title {
+   margin: 0;
+}
+#question {
+    margin: 0;
+}
+input[type='text']{
+    width: 10vw;
+    display: inline-block;
+}
+#message {
+    width: 25vw;
+    display: block;
+    margin-top: 1vh;
+}
+
+#submit {
+    width: 10vw;
+    margin-left: 10vw;
+    padding-left: 3.2vw;
+}
+ 
+#reseaux {
+    margin: auto;
+}
+#reseaux a{
+    width 7vw;
+    height: 7vh;
+    padding-right: 1vw;
+}
+
