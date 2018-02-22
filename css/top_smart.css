@@ -1,59 +1,322 @@
-body{
+body {
+    height: 100%;
     display: block;
+    font-size: 62.5%;
+    color: #fff;
+    font-family: "Lato";
 }
 
-#accueil {
-    background: url('../img/fond1.jpg') center no-repeat;
-    height: 500px;
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bloc {
+    height: auto;
     width: 100%;
     display: inline-block;
-    -webkit-background-size: cover;
-      background-size: cover;
+    -webkit-background-size: contain;
+    background-size: contain;
+    margin-top: 0;
 }
 
-#accueil img {
-    margin-top: 1vh;
-    margin-left: 15vw;
-    height: 20px;
+nav .hidden {
+    /*display: none;*/
+}
+
+#bloc1 {
+    background: url('../img/fond1.jpg') left top no-repeat;
+    /*display: none;*/
+    background-size: cover;
+    
+}
+
+#bloc2 {
+    background: url('../img/fond2.jpg') left top no-repeat;
+    background-size: cover;
+}
+
+#bloc3 {
+    background: url('../img/fond3.jpg') left top no-repeat;
+    background-size: cover;
+}
+
+img {
+    margin-top: 2vh;
+    margin-left: 10vw;
+    height: 3vh;
     width: auto;
 }
 
-#accueil nav ul {
+nav ul {
     float: right;
     list-style: none;
     margin-top: 0;
 }
 
-#accueil nav ul li {
+nav ul li {
+    font-size: 1.5em;
     display: inline-block;
     margin-top: none;
-    padding: 0 1vw;
-    font-size: 18px;
-    font-family: "Lato", sans-serif;
+    padding: 3.1vh 2vw 1vh;
     color: rgb(255, 255, 255);
-    line-height: 3.333;
     text-align: right;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
-#accueil nav ul li:first-child {
-    background-color: #74c7d5;
+nav ul li:last-child {
+    margin-right: 7vw;
 }
 
-#accueil nav ul li:last-child {
-    margin-right: 15vw;
-}
-
-#accueil nav ul li:hover {
-    background-color: #74c7d5;
-}
-
-#accueil nav ul li a {
-    text-decoration: none;
-}
-
-#accueil nav ul li a:visited {
+nav ul li a:visited,
+nav ul li a:active,
+nav ul li:hover {
     text-decoration: none;
     color: #fff;
+}
+
+#bloc1 .activelink,
+#bloc1 nav ul li:hover {
+    background-color: #74c7d5;
+}
+
+#bloc1 #carrousel {
+    margin-top: 13vh;
+    text-align: center;
+}
+
+#bloc1 #arrowleft {
+    display: inline-block;
+}
+
+#bloc1 #arrowleft img {
+    height: 4vh;
+    margin-left: 0;
+}
+
+#bloc1 #slogan {
+    text-align: center;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.302);
+    padding: 3vh 1vw;
+    width: 65vw;
+    margin: 5vh 5vw 0;
+    display: inline-block;
+}
+
+#bloc1 #ideas {
+    font-size: 4.5vw;
+    color: rgb(116, 199, 213);
+    line-height: 0.967;
+    text-align: right;
+    display: inline-block;
+}
+
+#bloc1 #first {
+    display: inline-block;
+    text-align: left;
+    font-size: 10vw;
+    color: rgb(116, 199, 213);
+    margin-top: -3vh;
+    font-weight: bold;
+}
+
+#bloc1 #arrowright {
+    display: inline-block;
+}
+
+#bloc1 #arrowright img {
+    height: 4vh;
+    margin-left: 0;
+}
+
+#bloc1 #links {
+    margin: 20vh 0 5vh;
+}
+
+#bloc1 #links img {
+    height: 2vh;
+    margin-left: 2vw;
+    margin-bottom: 3vh;
+}
+
+#bloc2 .activelink,
+#bloc2 nav ul li:hover {
+    background-color: #df5c64;
+}
+
+.text {
+    margin-top: 8vh;
+    text-align: center;
+    padding: 0 2vw;
+}
+
+.title {
+    font-size: 2em;
+}
+
+.title,
+#subtitle {
+    text-transform: uppercase;
+    margin-bottom: 2vh;
+}
+
+#subtitle {
+    font-size: 1.1em;
+}
+
+#subtitle span {
+    color: #d27b80;
+}
+
+.description {
+    font-size: 1em;
+    color: rgb(255, 204, 207);
+    line-height: 1.714;
+}
+
+.miniblocs {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.rang {
+    display: block;
+}
+.minibloc {
+    display: inline-block;
+    width: 30vw;
+    margin: 7vh 0.5vw 0;
+    text-align: center;
+    padding: 3vh 1vw;
+    border-radius: 5px;
+}
+
+.minibloc img {
+    height: 8vh;
+    margin-left: 0;
+}
+
+.minibloc .title {
+    font-size: 3.5vw;
+    margin: 2vh 0;
+    white-space: nowrap;
+}
+
+#bloc2 .minibloc {
+    background-color: rgba(200, 83, 90, 0.8);
+}
+
+#bloc3 .activelink,
+#bloc3 nav ul li:hover {
+    background-color: #91778e;
+}
+
+#bloc3 .description {
+    color: #fff;
+}
+
+#bloc3 #meet_team {
+    margin-top: 4vh;
+    background: url(../img/meet_team_bg.png) top center no-repeat;
+    background: cover;
+    height: 3vh;
+    text-align: center;
+    padding-top: 0.3vh;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#bloc3 .minibloc {
+    background-color: rgba(86, 71, 84, 0.502);
+}
+
+#bloc3 .minibloc:hover {
+    background-color: rgba(77, 63, 75, 0.8);
+}
+
+#bloc3 .minibloc .user {
+    width: 15vw;
+    height: 10vh;
+    background: url(../img/user.png) center no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+#bloc3 .minibloc:hover .user {
+    background: url(../img/userhover.png) center no-repeat;
+    background-size: contain;
+}
+
+#bloc3 .minibloc .title {
+    color: rgb(199, 182, 197);
+    font-weight: bold;
+}
+
+#bloc3 .minibloc:hover .title {
+    color: #fff;
+}
+
+#bloc3 .minibloc p {
+    color: rgb(161, 202, 108);
+    font-size: 2vw;
+     white-space: nowrap;
+
+}
+
+#bloc3 .minibloc:hover p {
+    color: rgb(255, 137, 115);
+}
+
+#bloc3 .reseaux div {
+    width: 4vw;
+    height: 4vh;
+    display: inline-block;
+    margin: 1vh 0.7vw 0 0;
+}
+
+#bloc3 .minibloc .reseaux .facebook {
+    background: url(../img/facebook.png) center no-repeat;
+    background-size: contain;
+}
+
+#bloc3 .minibloc:hover .reseaux .facebook {
+    background: url(../img/facebookhover.png) center no-repeat;
+    background-size: contain;
+}
+
+#bloc3 .minibloc .reseaux .twitter {
+    background: url(../img/twitter.png) center no-repeat;
+    background-size: contain;
+}
+
+#bloc3 .minibloc:hover .reseaux .twitter {
+    background: url(../img/twitterhover.png) center no-repeat;
+    background-size: contain;
+}
+
+#bloc3 .minibloc .reseaux .googleplus {
+    background: url(../img/googleplus.png) center no-repeat;
+    background-size: contain;
+}
+
+#bloc3 .minibloc:hover .reseaux .googleplus {
+    background: url(../img/googleplushover.png) center no-repeat;
+    background-size: contain;
+}
+
+#bloc3 .minibloc .reseaux .linkedin {
+    background: url(../img/linkedin.png) center no-repeat;
+    background-size: contain;
+}
+
+#bloc3 .minibloc:hover .reseaux .linkedin {
+    background: url(../img/linkedinhover.png) center no-repeat;
+    background-size: contain;
+}
+
+#vide {
+    width: 100%;
+    height: 50vh;
 }
